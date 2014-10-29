@@ -1,0 +1,4 @@
+$ none {((depth=verylow & velocity=verylow)|(depth=verylow & velocity=low)|(depth=verylow & velocity=medium)|(depth=verylow & velocity=high)|(depth=low & velocity=high)|(depth=medium & velocity=high)|(depth=high & velocity=high)|(depth=veryhigh & velocity=high)|(depth=verylow & velocity=veryhigh)|(depth=low & velocity=veryhigh)|(depth=medium & velocity=veryhigh)|(depth=high & velocity=veryhigh)|(depth=veryhigh & velocity=veryhigh))}
+$ low {((depth=low & velocity=medium))}
+$ medium {((depth=medium & velocity=medium)|(depth=high & velocity=medium)|(depth=veryhigh & velocity=medium))}
+$ high {((depth=low & velocity=verylow)|(depth=medium & velocity=verylow)|(depth=high & velocity=verylow)|(depth=veryhigh & velocity=verylow)|(depth=low & velocity=low)|(depth=medium & velocity=low)|(depth=high & velocity=low)|(depth=veryhigh & velocity=low))}
